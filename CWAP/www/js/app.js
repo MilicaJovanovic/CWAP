@@ -12,11 +12,11 @@ var myApp = angular.module('starter', ['ionic', 'ngStorage'])
 })
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-  .state('login', {
-    url: '/login',
-    templateUrl: 'templates/login.html',
-    controller: 'LoginController'
+  .state('homepage', {
+    url: '/homepage',
+    templateUrl: 'templates/homepage.html',
+    controller: 'HomepageController'
   });
 
-  $urlRouterProvider.otherwise('/login');
+  $urlRouterProvider.otherwise('/homepage');
 });

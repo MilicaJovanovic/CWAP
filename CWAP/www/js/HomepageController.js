@@ -1,11 +1,11 @@
 angular.module('starter')
-.controller("LoginController", function($scope, $state) {
-	$scope.username = {
-		value : ""
-	}
-	$scope.password = {
-		value : ""
-	}
+.controller("HomepageController", function($scope, $state) {
+	// $scope.username = {
+	// 	value : ""
+	// }
+	// $scope.password = {
+	// 	value : ""
+	// }
 
 	//TO DO, replace static login check with login logic
 	// $scope.login = function() {
@@ -16,4 +16,8 @@ angular.module('starter')
 	// 		alert("Username or password is not correct!");
 	// 	}
 	// }
+
+	$scope.showAction = function() {
+		console.log("Action shown");
+	}
 });
