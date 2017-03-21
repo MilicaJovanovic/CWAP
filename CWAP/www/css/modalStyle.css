@@ -1,0 +1,283 @@
+/*Hold modal*/
+.holdModal {
+	height: 70vh;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   padding-bottom: 10px;
+   top: 70px !important;
+}
+@media screen and (max-height: 620px) {
+	.holdModal {
+		margin-top: -5%;
+		height: 75vh;
+	}
+}
+.holdModalHeader {
+	background-color: #dd9a65;
+	height: 50px !important;
+}
+.holdModalHeaderTitle {
+	color: white;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+.tableHeader {
+	width: 95%;
+	height: 40px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	border-radius: 8px;
+	border: 2px solid gray;
+}
+.tableHeaderItem {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 36px;
+	font-size: 1.3em;
+	text-align: center;
+	color: gray;
+	border-right: 2px solid gray;
+	padding-top: 6px;
+}
+.subtotal {
+	color: white;
+	border: none;
+	background: #dd9a65;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.tableAreaModal {
+	margin-top: 20px;
+	min-height: 35vh;
+	max-height: 35vh !important;
+	overflow-y: auto;
+}
+@media screen and (max-height: 800px) {
+	.tableAreaModal {
+		min-height: 22vh;
+		max-height: 22vh !important;
+	}
+}
+@media screen and (max-height: 620px) {
+	.tableAreaModal {
+		min-height: 19vh;
+		max-height: 19vh !important;
+	}
+}
+.dataTableModal {
+	background: #4c9c4f !important;
+	width: 95% !important;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1.2em;
+}
+.dataTableRowModal {
+	height: 30px !important;
+	border-bottom: 1px solid #acb0b7;
+}
+.dataTableItemInfoModal {
+	width: 25% !important;
+	border-left: 1px solid white;
+	text-align: center;
+}
+.dataTableItemNameModal {
+	width: 25% !important;
+	text-align: left;
+	padding-left: 20px !important;
+}
+.subtotalDataModal {
+	background-color: #dd9a65;
+}
+.holdModalInput {
+	width: 95%;
+	height: 45px !important;
+	margin-left: 2.5%;
+	border: 1px solid black !important;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+	height: 40px;
+	font-size: 1.4em !important;
+	padding-left: 10px !important;
+	margin-top: 15px;
+}
+.cartOrder {
+	margin-top: 10px; 
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.cartOrderRow {
+	width: 100%;
+	display: block;
+}
+.cartOrderButtonOrangeModal {
+	width: 48%;
+	float: left;
+	display: inline;
+	background: #dd9a65;
+	height: 50px;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 15px;
+	border-top: 2px solid #337ab7;
+	margin-top: 10px;
+}
+.buttonIcon {
+	color: white;
+	display: inline;
+	font-size: 1.6em;
+	margin-right: 5px;
+}
+.buttonText {
+	color: white;
+	display: inline;
+	font-size: 1.6em;
+}
+.cartOrderButtonGreenModal {
+	width: 48%;
+	float: left;
+	display: inline;
+	background: #4c9c4f;
+	height: 50px;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 15px;
+	border-top: 2px solid #337ab7;
+	margin-top: 10px;
+}
+
+/*Logout modal*/
+.logoutModal {
+	height: 550px;
+}
+@media screen and (max-height: 620px) {
+	.logoutModal {
+		margin-top: -9%;
+	}
+}
+.logoutBtnModal {
+	padding-top: 12px;
+	width: 70%;
+	margin-left: 15%;
+}
+.lines {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.linesPart {
+	width: 100%;
+	display: inline-block;
+}
+.linesPartTitle {
+	width: 50%;
+	float: left;
+	display: inline;
+	border: 2px solid gray;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+	height: 45px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+.orangeBorder {
+	border: 2px solid #dd9a65;
+}
+.linesPartData {
+	width: 50%;
+	display: inline;
+	float: left;
+	border: 2px solid gray;
+	border-left: none;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px; 
+	height: 45px;
+	color: white;
+	font-size: 1.3em;
+	background: #dd9a65;
+	text-align: center;
+	padding-top: 10px;
+}
+.greenData {
+	background: #4c9c4f;
+}
+
+/*Payment modal*/
+.paymentModal {
+	height: 580px;
+}
+@media screen and (max-height: 620px) {
+	.paymentModal {
+		margin-top: -10%;
+		height: 95vh;
+	}
+}
+.paymentButton {
+	height: 60px;
+	width: 48%;
+}
+.firstBtn {
+	margin-right: 4%;
+}
+.cartOrderButtonBlueModal {
+	width: 70%;
+	float: left;
+	display: inline;
+	background: #337ab7;
+	height: 60px;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 22px;
+	border-top: 2px solid #337ab7;
+	margin-top: 20px;
+	margin-left: 15%;
+}
+
+/*PayTM modal*/
+.payTmNoticeDiv {
+	width: 50%;
+	margin-left: 25%;
+}
+.payTmNotice {
+	font-size: 1.4em;
+	text-align: justify;
+
+}
+.payTmTotal {
+	text-align: center;
+}
+.payTmButton {
+	width: 48%;
+	height: 60px;
+}
+.qrImgDiv {
+	width: 40%;
+	margin-left: 20%;
+	height: 200px;
+}
+.qrImage {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('img/qr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
